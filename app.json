@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "solveittest",
+    "name": "Solve It",
     "slug": "solveittest",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/appicon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splash3.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -22,12 +22,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/adaptive-icon1.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.jeyaprakash007.solveittest"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5fe791ae-b48f-41b9-97b3-4b1d1ebe60bd"
+      }
     }
   }
 }
